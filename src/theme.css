@@ -1,0 +1,46 @@
+/* ==========================================================================
+   CONFIGURACIÓN DE ESTILOS Y TEMA (HC-SCAN WEB)
+   Aquí puedes modificar los colores principales, secundarios, fuentes y fondos.
+   ========================================================================== */
+
+:root {
+  /* --- Tipografía --- */
+  --font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  
+  /* --- Colores Principales (Brand) --- */
+  --color-primary: #2563eb;          /* Azul corporativo moderno */
+  --color-primary-hover: #1d4ed8;    /* Azul oscuro al pasar el cursor */
+  --color-primary-light: #eff6ff;    /* Fondo azul muy suave */
+  --color-primary-glow: rgba(37, 99, 235, 0.2);
+
+  --color-secondary: #0284c7;        /* Cian / Azul técnico secundario */
+  --color-secondary-hover: #0369a1;
+  --color-secondary-light: #f0f9ff;
+
+  --color-accent: #059669;           /* Verde esmeralda (éxito, badges, gratis) */
+  --color-accent-light: #ecfdf5;
+
+  /* --- Fondos Modo Claro (Light Mode) --- */
+  --bg-page: #f8fafc;                /* Fondo general blanco-grisáceo suave */
+  --bg-surface: #ffffff;             /* Superficies y secciones destacadas */
+  --bg-card: #ffffff;                /* Fondo de tarjetas blanco puro */
+  --bg-card-hover: #ffffff;
+  --bg-subtle: #f1f5f9;              /* Fondos de inputs y badges */
+  --bg-subtle-alt: #e2e8f0;
+
+  /* --- Bordes y Sombras --- */
+  --border-color: #e2e8f0;           /* Borde sutil gris claro */
+  --border-color-strong: #cbd5e1;
+  --border-focus: #2563eb;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.06), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 25px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -4px rgba(0, 0, 0, 0.02);
+  --shadow-xl: 0 20px 30px -5px rgba(0, 0, 0, 0.08), 0 8px 12px -6px rgba(0, 0, 0, 0.03);
+
+  /* --- Textos Modo Claro --- */
+  --text-main: #0f172a;              /* Títulos y texto de alto contraste */
+  --text-secondary: #334155;         /* Párrafos legibles */
+  --text-muted: #64748b;             /* Notas al pie y etiquetas secundarias */
+  --text-inverse: #ffffff;           /* Texto blanco sobre botones primarios */
+}
